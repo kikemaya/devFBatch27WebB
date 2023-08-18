@@ -1,4 +1,3 @@
-
 function saludar() {
   let mensaje = "¡Hola!";
   return mensaje;
