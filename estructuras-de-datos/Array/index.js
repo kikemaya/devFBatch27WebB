@@ -30,7 +30,7 @@ class MyArray {
     const lastItem = this.data[this.length - 1];
 
     for (let i = 0; i <= this.length - 1; i++) {
-      // VALORES: undefined, 1, 2, 4
+      // VALORES: undefined,                 2, 4, 5
       // INDICES: 0, 1, 2, 3
       this.data[i + 1] = this.data[i];
     };
